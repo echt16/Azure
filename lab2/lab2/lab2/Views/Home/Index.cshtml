@@ -1,0 +1,16 @@
+﻿@model List<string>;
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-4"></h1>
+    <form method="post" asp-action="addImage" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>
+                Image source:
+            </label>
+            <input required type="file" name="image" />
+            <button class="btn btn-success">Add</button>
+        </div>
+    </form>
+</div>
