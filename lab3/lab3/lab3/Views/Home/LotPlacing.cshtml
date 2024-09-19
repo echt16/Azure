@@ -1,0 +1,22 @@
+﻿@model LotPlacingModel
+
+<form asp-action="LotPlacing" method="post">
+    <div class="form-group">
+        <label>Carrency</label>
+        <select required name="currency" class="form-control">
+            @foreach(var car in Model.Currencies)
+            {
+                <option value="@car">@car</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Sum</label>
+        <input required class="form-control" type="number" name="sum"/>
+    </div>
+    <div class="form-group mb-2">
+        <label>Lastname</label>
+        <input required class="form-control" type="text" name="lastname"/>
+    </div>
+    <button class="btn btn-success">Place</button>
+</form>

@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model MainModel
+
+<div class="container mt-5">
+    <h2>Lots</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Sum</th>
+                <th>Currency</th>
+                <th>Lastname</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @for (int i = 0; i < Model.Lots.Count; i++)
+            {
+                <tr>
+                    <td>@Model.Lots[i].Sum</td>
+                    <td>@Model.Lots[i].Currency</td>
+                    <td>@Model.Lots[i].Lastname</td>
+                    <td>
+                        <form method="post" asp-action="LotTake">
+                            <input type="hidden" name="lotId" value="@Model.Lots[i].Id" />
+                            <button class="btn btn-success">Take a lot</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
