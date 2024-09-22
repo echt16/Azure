@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model LotGetModel
+
+<style>
+    .main{
+        display:flex;
+        flex-direction:column;
+    }
+</style>
+
+<div class="main">
+    <form asp-action="LotGetByCurrancy" class="container" method="get">
+        <div class="form-group mb-2">
+            <label>Carrency</label>
+            <select required name="currency" class="form-control">
+                @foreach (var car in Model.Currencies)
+                {
+                    <option value="@car">@car</option>
+                }
+            </select>
+        </div>
+        <button class="btn btn-success">Show</button>
+    </form>
+    <div>
+        <div class="container mt-5">
+            <h2>Lots</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Sum</th>
+                        <th>Currency</th>
+                        <th>Lastname</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @for(int i = 0; i < Model.Lots.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.Lots[i].Sum</td>
+                            <td>@Model.Lots[i].Currency</td>
+                            <td>@Model.Lots[i].Lastname</td>
+                            <td>
+                                <form method="post" asp-action="LotTake">
+                                    <input type="hidden" name="lotId" value="@Model.Lots[i].Id" />
+                                    <button class="btn btn-success">Take a lot</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

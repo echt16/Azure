@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\Azure\\lab3\\lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\models\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\views\\home\\lotplacing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\views\\home\\lotplacing.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\views\\home\\lotget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\views\\home\\lotget.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\models\\lotgetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\lotgetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\models\\lot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\lot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|d:\\azure\\lab3\\lab3\\lab3\\models\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D47C36-B0A1-4474-ADB6-772DBD881714}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\mainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 129,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,89 +38,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QueueService.cs",
-              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\QueueService.cs",
-              "RelativeDocumentMoniker": "lab3\\Models\\QueueService.cs",
-              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\QueueService.cs",
-              "RelativeToolTip": "lab3\\Models\\QueueService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T00:11:54.205Z",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:28:49.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "LotGetModel.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\LotGetModel.cs",
+              "RelativeDocumentMoniker": "lab3\\Models\\LotGetModel.cs",
+              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\LotGetModel.cs",
+              "RelativeToolTip": "lab3\\Models\\LotGetModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:27:39.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LotGet.cshtml",
               "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Home\\LotGet.cshtml",
               "RelativeDocumentMoniker": "lab3\\Views\\Home\\LotGet.cshtml",
               "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Home\\LotGet.cshtml",
               "RelativeToolTip": "lab3\\Views\\Home\\LotGet.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwFAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T23:45:22.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "lab3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "lab3\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T23:58:17.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LotPlacing.cshtml",
-              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Home\\LotPlacing.cshtml",
-              "RelativeDocumentMoniker": "lab3\\Views\\Home\\LotPlacing.cshtml",
-              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Views\\Home\\LotPlacing.cshtml",
-              "RelativeToolTip": "lab3\\Views\\Home\\LotPlacing.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T23:47:12.601Z",
+              "WhenOpened": "2024-09-21T13:27:13.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "lab3\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Controllers\\HomeController.cs",
               "RelativeToolTip": "lab3\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T23:59:52.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Lot.cs",
-              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\Lot.cs",
-              "RelativeDocumentMoniker": "lab3\\Models\\Lot.cs",
-              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\Lot.cs",
-              "RelativeToolTip": "lab3\\Models\\Lot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T23:51:36.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainModel.cs",
-              "DocumentMoniker": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\MainModel.cs",
-              "RelativeDocumentMoniker": "lab3\\Models\\MainModel.cs",
-              "ToolTip": "D:\\Azure\\lab3\\lab3\\lab3\\Models\\MainModel.cs",
-              "RelativeToolTip": "lab3\\Models\\MainModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T23:56:25.904Z"
+              "WhenOpened": "2024-09-21T13:26:20.183Z",
+              "EditorCaption": ""
             }
           ]
         },

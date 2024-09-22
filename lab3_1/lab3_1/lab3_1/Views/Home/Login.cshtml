@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Authorization";
+}
+
+<div class="modal-window">
+    <form class="modal-form" asp-controller="Home" asp-action="Login" method="post">
+        <div class="modal-form-group">
+            <p class="modal-form-title">
+                Authorization
+            </p>
+        </div>
+        <div class="modal-form-group">
+            <label class="modal-form-label">
+                Login:
+            </label>
+            <input type="text" name="login" class="modal-form-input input" required />
+        </div>
+        <div class="modal-form-group">
+            <label class="modal-form-label">
+                Password:
+            </label>
+            <input type="password" name="password" class="modal-form-input input" required />
+        </div>
+        <div class="modal-form-group">
+            <button type="submit" class="btn btn-success">Enter</button>
+        </div>
+        <div>
+            <a class="btn btn-primary" asp-controller="Home" asp-action="Registration">Registration</a>
+        </div>
+    </form>
+</div>

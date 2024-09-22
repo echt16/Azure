@@ -14,13 +14,27 @@
 </style>
 
 <div class="main">
-    <form asp-action="LotGetByCurrancy" class="container" method="get">
+    <form asp-action="LotGetByCurrancy" class="container" method="get" id="form">
         <div class="form-group mb-2">
             <label>Carrency</label>
             <select required name="currency" class="form-control">
-                @foreach (var car in Model.Currencies)
+                @if(Model.CurrentCurrency != null)
                 {
-                    <option value="@car">@car</option>
+                    <option value="@Model.CurrentCurrency">@Model.CurrentCurrency</option>
+                    @foreach (var car in Model.Currencies)
+                    {
+                        if(car != Model.CurrentCurrency)
+                        {
+                           <option value="@car">@car</option>
+                        }
+                    }
+                }
+                else
+                {
+                     @foreach (var car in Model.Currencies)
+                    {
+                        <option value="@car">@car</option>
+                    }
                 }
             </select>
         </div>
@@ -39,7 +53,6 @@
                     </tr>
                 </thead>
                 <tbody>
-
                     @for(int i = 0; i < Model.Lots.Count; i++)
                     {
                         <tr>
@@ -54,9 +67,18 @@
                             </td>
                         </tr>
                     }
-
                 </tbody>
             </table>
         </div>
     </div>
 </div>
+
+@if(Model.CurrentCurrency != null)
+{
+    <script name="Scripts">
+        let form = document.querySelector("#form");
+        setInterval(() => {
+            form.submit();
+        }, 10000);
+    </script>
+}

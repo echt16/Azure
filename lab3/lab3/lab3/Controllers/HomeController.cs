@@ -66,7 +66,7 @@ namespace lab3.Controllers
         {
             List<Lot> lots = await QueueService.PeekMessagesAsync(queueName, 10);
             LotGetModel lotGetModel = new LotGetModel() { Currencies = this.currencies };
-
+            lotGetModel.CurrentCurrency = currency;
             foreach (Lot lot in lots)
             {
                 if (lot.Currency == currency)

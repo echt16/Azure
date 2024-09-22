@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Azure\\lab3_1\\lab3_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\models\\services\\loadservices\\loadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\loadservices\\loadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\models\\services\\azureservices\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\azureservices\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\models\\services\\databaseservices\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\databaseservices\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\models\\database\\queueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\database\\queueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\models\\database\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\database\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab3_1\\lab3_1\\lab3_1\\models\\database\\queueclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\database\\queueclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 246,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Services\\AzureServices\\BlobService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\AzureServices\\BlobService.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Services\\AzureServices\\BlobService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\AzureServices\\BlobService.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAgwJ8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:05:40.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lab3_1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAswFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:46:56.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAFQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:09:23.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwHgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T09:56:03.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 12,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueueItem.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Database\\QueueItem.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Database\\QueueItem.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Database\\QueueItem.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Database\\QueueItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:27:27.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueueClient.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Database\\QueueClient.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Database\\QueueClient.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Database\\QueueClient.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Database\\QueueClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:30:21.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "File.cs",
+              "DocumentMoniker": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Database\\File.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Database\\File.cs",
+              "ToolTip": "D:\\Azure\\lab3_1\\lab3_1\\lab3_1\\Models\\Database\\File.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Database\\File.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T11:30:31.078Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
