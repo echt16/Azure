@@ -1,5 +1,6 @@
 using lab3_1.Models.Database;
 using lab3_1.Models.Services;
+using lab3_1.Models.Services.DatabaseServices;
 using lab3_1.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -10,11 +11,15 @@ namespace lab3_1.Controllers
     public class HomeController : Controller
     {
         private AppService AppService { get; set; }
-        private StorageSystemDbContext Context { get; set; }
-        public HomeController(StorageSystemDbContext db)
+        private IServiceScopeFactory ScopeFactory { get; set; }
+
+        public HomeController(IServiceScopeFactory scopeFactory)
         {
-            Context = db;
-            AppService = new AppService(db);
+            ScopeFactory = scopeFactory;
+
+            var databaseService = new DatabaseService(ScopeFactory);
+
+            AppService = new AppService(databaseService);
         }
 
         public override void OnActionExecuting(ActionExecutingContext context)
@@ -74,18 +79,23 @@ namespace lab3_1.Controllers
         [HttpPost]
         public async Task<IActionResult> Registration(string login, string password, string firstname, string lastname)
         {
-            if(await AppService.RegisterUser(login, password, firstname, lastname))
+            if (await AppService.RegisterUser(login, password, firstname, lastname))
             {
                 return View("Login");
-            }  
+            }
             return View();
         }
 
-
-
         public IActionResult Privacy()
         {
+            AppService.Bsp();
             return View();
+        }
+
+        public IActionResult Allo()
+        {
+            AppService.Bsp2();
+            return View("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

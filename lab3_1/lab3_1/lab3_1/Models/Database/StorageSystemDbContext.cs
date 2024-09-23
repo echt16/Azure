@@ -18,5 +18,13 @@ namespace lab3_1.Models.Database
         {
             Database.EnsureCreated();
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<BlobFile>()
+                .HasOne(bf => bf.File)
+                .WithMany(f => f.BlobFiles)
+                .HasForeignKey(bf => bf.FileId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 }

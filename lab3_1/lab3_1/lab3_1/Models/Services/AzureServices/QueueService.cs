@@ -87,6 +87,8 @@ namespace lab3_1.Models.Services.AzureServices
                 List<MessageModelView> messages = new List<MessageModelView>();
                 QueueClient queueClient = await GetQueue();
 
+                count = queueClient.MaxPeekableMessages < count ? queueClient.MaxPeekableMessages : count;
+
                 foreach (PeekedMessage message in (await queueClient.PeekMessagesAsync(count)).Value)
                 {
                     messages.Add(new MessageModelView()

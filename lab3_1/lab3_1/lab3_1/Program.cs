@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using lab3_1.Models.Database;
+using lab3_1.Models.Services.DatabaseServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<StorageSystemDbContext>(options => options.UseSqlS
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
+builder.Services.AddScoped<DatabaseService>();
 var app = builder.Build();
 app.UseSession();
 

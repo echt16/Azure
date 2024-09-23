@@ -56,7 +56,7 @@ namespace lab3_1.Models.Services.LoadServices
                 await file.CopyToAsync(fs);
             }
 
-            int statusId = DatabaseService.GetIdOdStatus(filePath);
+            int statusId = DatabaseService.GetIdOfStatus("Loaded");
 
             Database.File f = await DatabaseService.AddFileToDb(Path.GetExtension(fullPath), fileName, fullPath, statusId, UserId);
 

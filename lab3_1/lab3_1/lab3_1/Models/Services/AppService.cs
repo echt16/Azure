@@ -14,23 +14,22 @@ namespace lab3_1.Models.Services
         private LoadService LoadService { get; set; }
         private int UserId { get; set; }
 
-        public AppService(StorageSystemDbContext db, int userId)
+        public AppService(DatabaseService db, int userId)
         {
             AuthorizationService = new AuthorizationService();
-            DatabaseService = new DatabaseService(db);
+            DatabaseService = db;
             LoadService = new LoadService(userId, DatabaseService);
             UserId = userId;
         }
-
-        public AppService(StorageSystemDbContext db)
+        public AppService(DatabaseService db)
         {
             AuthorizationService = new AuthorizationService();
-            DatabaseService = new DatabaseService(db);
+            DatabaseService = db;
         }
 
         public void SetUserId(int userId)
         {
-            LoadService = new LoadService(userId);
+            LoadService = new LoadService(userId, DatabaseService);
             UserId = userId;
         }
 
@@ -69,6 +68,16 @@ namespace lab3_1.Models.Services
         internal async Task<bool> RegisterUser(string login, string password, string firstname, string lastname)
         {
             return await DatabaseService.AddUser(login, password, firstname, lastname);
+        }
+
+        internal void Bsp()
+        {
+            LoadService.LoadToLocalPath(new FileStream("D:\\Фотоаппарат\\DSC_0728.jpg", FileMode.Open, FileAccess.Read), "D:\\Фотоаппарат\\DSC_0728.jpg");
+        }
+
+        internal void Bsp2()
+        {
+            LoadService.SendAllToStorage();
         }
     }
 }
