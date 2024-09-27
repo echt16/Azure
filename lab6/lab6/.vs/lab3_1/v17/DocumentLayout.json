@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Azure\\lab6\\lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\models\\services\\loadservices\\loadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\loadservices\\loadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\models\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\views\\home\\sendfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\views\\home\\sendfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\models\\services\\databaseservices\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\databaseservices\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\models\\services\\authorizationservices\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\authorizationservices\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\models\\database\\storagesystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\database\\storagesystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|d:\\azure\\lab6\\lab6\\lab3_1\\models\\services\\azureservices\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52586B9F-D0F6-49CE-B866-0BC182375C29}|lab3_1\\lab3_1.csproj|solutionrelative:lab3_1\\models\\services\\azureservices\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 110,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SendFile.cshtml",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Views\\Home\\SendFile.cshtml",
+              "RelativeDocumentMoniker": "lab3_1\\Views\\Home\\SendFile.cshtml",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Views\\Home\\SendFile.cshtml",
+              "RelativeToolTip": "lab3_1\\Views\\Home\\SendFile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:22:42.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "lab3_1\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "lab3_1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T21:23:18.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab3_1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab3_1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T21:07:01.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\AuthorizationServices\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\AuthorizationServices\\AuthorizationService.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\AuthorizationServices\\AuthorizationService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\AuthorizationServices\\AuthorizationService.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T21:05:08.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\appsettings.json",
+              "RelativeDocumentMoniker": "lab3_1\\appsettings.json",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\appsettings.json",
+              "RelativeToolTip": "lab3_1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T20:49:18.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StorageSystemDbContext.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Database\\StorageSystemDbContext.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Database\\StorageSystemDbContext.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Database\\StorageSystemDbContext.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Database\\StorageSystemDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T20:25:22.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QueueService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\AzureServices\\QueueService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\AzureServices\\QueueService.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\AzureServices\\QueueService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\AzureServices\\QueueService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:21:35.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Program.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Program.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Program.cs",
+              "RelativeToolTip": "lab3_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:05:46.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\DatabaseServices\\DatabaseService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:44:54.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\AppService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\AppService.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\AppService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\AppService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAnwHAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:44:08.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadService.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "RelativeToolTip": "lab3_1\\Models\\Services\\LoadServices\\LoadService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:43:40.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Azure\\lab6\\lab6\\lab3_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lab3_1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Azure\\lab6\\lab6\\lab3_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lab3_1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T12:46:56.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
