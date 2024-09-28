@@ -24,10 +24,12 @@ builder.Services.AddControllersWithViews();
 //    ));
 
 
+var conn = builder.Configuration["CosmosDb:AzureConnection"];
+var nameDb = builder.Configuration["CosmosDb:DatabaseName"];
 
 
 builder.Services.AddDbContext<StorageSystemDbContext>(options =>
-options.UseCosmos(conn, "SytemStorageDB"));
+options.UseCosmos(conn, nameDb));
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();

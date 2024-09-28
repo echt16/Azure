@@ -37,7 +37,7 @@ namespace lab3_1.Models.Services
             UserId = userId;
         }
 
-        internal bool IsLoginAvailable(string login)
+        internal async Task<bool> IsLoginAvailable(string login)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace lab3_1.Models.Services
                     throw new ArgumentException("Login cannot be empty or null");
                 }
 
-                return !DatabaseService.ExistsUser(login);
+                return !(await DatabaseService.ExistsUser(login));
             }
             catch (Exception ex)
             {
@@ -59,11 +59,6 @@ namespace lab3_1.Models.Services
         {
             try
             {
-                if (string.IsNullOrEmpty(token) || string.IsNullOrEmpty(key))
-                {
-                    throw new ArgumentException("Token and key cannot be empty or null");
-                }
-
                 return AuthorizationService.CheckAuthorization(token, key);
             }
             catch (Exception ex)

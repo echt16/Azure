@@ -37,9 +37,9 @@ namespace lab3_1.Controllers
         }
 
         [HttpPost]
-        public IActionResult CheckLogin(string login)
+        public async Task<IActionResult> CheckLogin(string login)
         {
-            if (AppService.IsLoginAvailable(login))
+            if (await AppService.IsLoginAvailable(login))
                 return Ok();
             else
                 return BadRequest();
