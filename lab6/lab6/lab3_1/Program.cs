@@ -45,6 +45,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<StorageSystemDbContext>();
+    await dbContext.Database.EnsureCreatedAsync();
+}
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

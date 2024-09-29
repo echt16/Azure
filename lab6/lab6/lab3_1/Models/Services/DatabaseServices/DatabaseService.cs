@@ -82,7 +82,7 @@ namespace lab3_1.Models.Services.DatabaseServices
                     if (!await context.QueueClients.AnyAsync(client => client.Name == queueName))
                     {
                         int azId = await context.AzureStorages.Select(x => x.Id).FirstAsync();
-                        context.QueueClients.Add(new QueueClient()
+                        await context.QueueClients.AddAsync(new QueueClient()
                         {
                             AzureStorageId = azId,
                             Name = queueName
@@ -139,7 +139,7 @@ namespace lab3_1.Models.Services.DatabaseServices
                         MessageText = message,
                         QueueClientId = client.Id
                     };
-                    context.QueueItems.Add(queueItem);
+                    await context.QueueItems.AddAsync(queueItem);
                     await context.SaveChangesAsync();
                 }
                 catch (CosmosException ex)
@@ -164,7 +164,7 @@ namespace lab3_1.Models.Services.DatabaseServices
                         StatusId = statusId,
                         UserId = userId
                     };
-                    context.Add(file);
+                    await context.AddAsync(file);
                     await context.SaveChangesAsync();
                     return file;
                 }
@@ -184,7 +184,7 @@ namespace lab3_1.Models.Services.DatabaseServices
                 try
                 {
                     Database.File file = await context.Files.FirstAsync(x => x.Id == fileId);
-                    context.QueueItems.First(x => x.FileId == fileId).QueueClientId = await context.QueueClients.Where(x => x.Name == "files-queue-sent").Select(x => x.Id).FirstAsync();
+                    (await context.QueueItems.FirstAsync(x => x.FileId == fileId)).QueueClientId = await context.QueueClients.Where(x => x.Name == "files-queue-sent").Select(x => x.Id).FirstAsync();
                     await context.SaveChangesAsync();
                     file.StatusId = await GetIdOfStatus("Sent");
                     await context.SaveChangesAsync();
@@ -206,10 +206,11 @@ namespace lab3_1.Models.Services.DatabaseServices
                 try
                 {
                     Database.File file = await context.Files.FirstAsync(x => x.Id == fileId);
+                    file.StatusId = (await context.Statuses.FirstAsync(x => x.Name == "Sent")).Id;
                     context.QueueItems.Remove(await context.QueueItems.FirstAsync(x => x.FileId == fileId));
                     await context.SaveChangesAsync();
                     int contId = await context.BlobContainers.Where(x => x.Name == containerName).Select(x => x.Id).FirstAsync();
-                    context.BlobFiles.Add(new BlobFile()
+                    await context.BlobFiles.AddAsync(new BlobFile()
                     {
                         FileId = fileId,
                         BlobContainerId = contId,
@@ -232,7 +233,7 @@ namespace lab3_1.Models.Services.DatabaseServices
                 var context = scope.ServiceProvider.GetRequiredService<StorageSystemDbContext>();
                 try
                 {
-                    context.QueueItems.First(x => x.FileId == fileId).MessageId = messageId;
+                    (await context.QueueItems.FirstAsync(x => x.FileId == fileId)).MessageId = messageId;
                     await context.SaveChangesAsync();
                 }
                 catch (CosmosException ex)
@@ -316,10 +317,10 @@ namespace lab3_1.Models.Services.DatabaseServices
                     };
                     if (await ExistsUser(login))
                         throw new Exception("Login already exists");
-                    context.LoginPasswords.Add(lp);
+                    await context.LoginPasswords.AddAsync(lp);
                     await context.SaveChangesAsync();
                     int roleId = await context.Roles.Select(x => x.Id).FirstAsync();
-                    context.Users.Add(new Database.User()
+                    await context.Users.AddAsync(new Database.User()
                     {
                         LoginPasswordId = lp.Id,
                         Firstname = firstname,

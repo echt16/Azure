@@ -12,6 +12,7 @@
         public Status Status { get; set; }
         public virtual List<BlobFile> BlobFiles { get; set; }
         public virtual List<QueueItem> QueueItems { get; set; }
+        public int PartitionKey { get; set; }
         public File()
         {
             BlobFiles = new List<BlobFile>();

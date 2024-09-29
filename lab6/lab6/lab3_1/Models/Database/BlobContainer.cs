@@ -9,6 +9,7 @@
         public AzureStorage AzureStorage { get; set; }
         public int UserId {  get; set; }
         public User User { get; set; }
+        public int PartitionKey { get; set; }
         public BlobContainer()
         {
             BlobFiles = new List<BlobFile>();

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Cosmos;
 
 namespace lab3_1.Models.Database
 {
@@ -15,15 +16,33 @@ namespace lab3_1.Models.Database
         public DbSet<Status> Statuses { get; set; }
         public DbSet<User> Users { get; set; }
 
-        public StorageSystemDbContext(DbContextOptions<StorageSystemDbContext> options) : base(options)
+        private readonly IConfiguration _configuration;
+
+        public StorageSystemDbContext(DbContextOptions<StorageSystemDbContext> options, IConfiguration configuration)
+            : base(options)
         {
-             Database.EnsureCreatedAsync();
+            _configuration = configuration;
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                var connectionString = _configuration["CosmosDb:AzureConnection"];
+                var dbName = _configuration["CosmosDb:DatabaseName"];
+                optionsBuilder.UseCosmos(connectionString, dbName);
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // LoginPassword
             modelBuilder.Entity<LoginPassword>()
                 .HasKey(lp => lp.Id);
+
+            modelBuilder.Entity<LoginPassword>()
+                .ToContainer("LoginPasswords")
+                .HasPartitionKey(lp => lp.PartitionKey);
 
             modelBuilder.Entity<LoginPassword>()
                 .HasMany(lp => lp.Users)
@@ -33,6 +52,10 @@ namespace lab3_1.Models.Database
             // File
             modelBuilder.Entity<File>()
                 .HasKey(f => f.Id);
+
+            modelBuilder.Entity<File>()
+                .ToContainer("Files")
+                .HasPartitionKey(f => f.PartitionKey);
 
             modelBuilder.Entity<File>()
                 .HasOne(f => f.User)
@@ -63,6 +86,10 @@ namespace lab3_1.Models.Database
                 .HasKey(bf => bf.Id);
 
             modelBuilder.Entity<BlobFile>()
+                .ToContainer("BlobFiles")
+                .HasPartitionKey(f => f.PartitionKey);
+
+            modelBuilder.Entity<BlobFile>()
                 .HasOne(bf => bf.BlobContainer)
                 .WithMany(bc => bc.BlobFiles)
                 .HasForeignKey(bf => bf.BlobContainerId)
@@ -71,6 +98,10 @@ namespace lab3_1.Models.Database
             // BlobContainer
             modelBuilder.Entity<BlobContainer>()
                 .HasKey(bc => bc.Id);
+
+            modelBuilder.Entity<BlobContainer>()
+                .ToContainer("BlobContainers")
+                .HasPartitionKey(bc => bc.PartitionKey);
 
             modelBuilder.Entity<BlobContainer>()
                 .HasOne(bc => bc.AzureStorage)
@@ -89,6 +120,10 @@ namespace lab3_1.Models.Database
                 .HasKey(a => a.Id);
 
             modelBuilder.Entity<AzureStorage>()
+                .ToContainer("AzureStorages")
+                .HasPartitionKey(a => a.PartitionKey);
+
+            modelBuilder.Entity<AzureStorage>()
                 .HasMany(a => a.BlobContainers)
                 .WithOne(bc => bc.AzureStorage)
                 .HasForeignKey(bc => bc.AzureStorageId)
@@ -105,6 +140,10 @@ namespace lab3_1.Models.Database
                 .HasKey(qc => qc.Id);
 
             modelBuilder.Entity<QueueClient>()
+                .ToContainer("QueueClients")
+                .HasPartitionKey(qc => qc.PartitionKey);
+
+            modelBuilder.Entity<QueueClient>()
                 .HasMany(qc => qc.QueueItems)
                 .WithOne(qi => qi.QueueClient)
                 .HasForeignKey(qi => qi.QueueClientId)
@@ -113,6 +152,10 @@ namespace lab3_1.Models.Database
             // QueueItem
             modelBuilder.Entity<QueueItem>()
                 .HasKey(qi => qi.Id);
+
+            modelBuilder.Entity<QueueItem>()
+                .ToContainer("QueueItems")
+                .HasPartitionKey(qi => qi.PartitionKey);
 
             modelBuilder.Entity<QueueItem>()
                 .HasOne(qi => qi.File)
@@ -125,6 +168,10 @@ namespace lab3_1.Models.Database
                 .HasKey(r => r.Id);
 
             modelBuilder.Entity<Role>()
+                .ToContainer("Roles")
+                .HasPartitionKey(r => r.PartitionKey);  
+
+            modelBuilder.Entity<Role>()
                 .HasMany(r => r.Users)
                 .WithOne(u => u.Role)
                 .HasForeignKey(u => u.RoleId)
@@ -135,6 +182,10 @@ namespace lab3_1.Models.Database
                 .HasKey(s => s.Id);
 
             modelBuilder.Entity<Status>()
+                .ToContainer("Statuses")
+                .HasPartitionKey(s => s.PartitionKey);  
+
+            modelBuilder.Entity<Status>()
                 .HasMany(s => s.Files)
                 .WithOne(f => f.Status)
                 .HasForeignKey(f => f.StatusId)
@@ -143,6 +194,10 @@ namespace lab3_1.Models.Database
             // User
             modelBuilder.Entity<User>()
                 .HasKey(u => u.Id);
+
+            modelBuilder.Entity<User>()
+                .ToContainer("Users")
+                .HasPartitionKey(u => u.PartitionKey);
 
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Role)

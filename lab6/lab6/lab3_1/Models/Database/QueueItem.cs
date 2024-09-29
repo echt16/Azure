@@ -10,5 +10,6 @@
         public QueueClient QueueClient { get; set; }
         public int FileId {  get; set; }
         public File File { get; set; }
+        public int PartitionKey { get; set; }
     }
 }

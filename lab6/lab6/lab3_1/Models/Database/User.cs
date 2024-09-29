@@ -11,6 +11,7 @@
         public LoginPassword LoginPassword { get; set; }
         public virtual List<File> Files { get; set; }
         public virtual List<BlobContainer> BlobContainers { get; set; }
+        public int PartitionKey { get; set; }
 
         public User()
         {
